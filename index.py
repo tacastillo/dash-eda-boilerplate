@@ -11,6 +11,8 @@ import pickle
 from app import app
 from pages import home, page_one
 
+server = app.server
+
 sidebar = html.Div(
     [
         html.H1("Exploratory Data Analysis Boilerplate"),
